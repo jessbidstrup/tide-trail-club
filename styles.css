@@ -264,6 +264,7 @@ nav{
     .beach,
     .events{
         min-width: 80%;
+        margin: 0;
     }
     .what-we-do img{
     width: 100%;
@@ -277,7 +278,7 @@ nav{
     .nature,
     .wellbeing,
     .notrace {
-        margin-bottom: 10px;
+        margin: 0;
     }
 }
 @media (max-width: 600px) {
@@ -313,6 +314,10 @@ nav{
     .about-content-left,
     .where-we-meet-left {
         padding: 30px 20px;
+    }
+    .what-we-do,
+    .values {
+        gap: 10px;
     }
     .footer{
         margin-top: 20px;
