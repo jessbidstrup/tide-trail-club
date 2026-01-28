@@ -255,32 +255,6 @@ nav{
 }
 
 /* Mobile breakpoints */
-@media (max-width: 768px) {
-    .about {
-        flex-direction: column;
-    }
-    .sunrise,
-    .trail,
-    .beach,
-    .events{
-        min-width: 80%;
-        margin: 0;
-    }
-    .what-we-do img{
-    width: 100%;
-    border-radius: 15px;
-    }
-    .where-we-meet{
-        flex-direction: column;
-    }
-    .inclusive,
-    .community,
-    .nature,
-    .wellbeing,
-    .notrace {
-        margin: 0;
-    }
-}
 @media (max-width: 600px) {
     body {
         font-size: 18px;
@@ -310,7 +284,34 @@ nav{
         padding-left: 1rem;
         padding-right: 1rem;
     }
-
+    .about {
+        flex-direction: column;
+    }
+    .sunrise,
+    .trail,
+    .beach,
+    .events{
+        min-width: 80%;
+        margin: 0;
+    }
+    .what-we-do img{
+    width: 100%;
+    border-radius: 15px;
+    }
+    .where-we-meet{
+        flex-direction: column;
+    }
+    .about-content-right,
+    .where-we-meet-right{
+        width: 100%;
+    }
+    .inclusive,
+    .community,
+    .nature,
+    .wellbeing,
+    .notrace {
+        margin: 0;
+    }
     .about-content-left,
     .where-we-meet-left {
         padding: 30px 20px;
@@ -318,6 +319,9 @@ nav{
     .what-we-do,
     .values {
         gap: 10px;
+    }
+    .quote{
+        margin-top: 10px;
     }
     .footer{
         margin-top: 20px;
