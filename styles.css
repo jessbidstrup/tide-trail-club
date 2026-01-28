@@ -314,19 +314,7 @@ nav{
     .where-we-meet-left {
         padding: 30px 20px;
     }
-    .inclusive,
-    .community,
-    .nature,
-    .wellbeing,
-    .notrace{
-        margin: 0;
+    .footer{
+        margin-top: 20px;
     }
 }
-
-/* colours
-deep ocean blue: #1F3D44
-seafoam green: #7FB7A5
-warm sand: #E6D8B5
-sunset clay: #C96A4A
-off white: #F7F7F4
-charcoal: #2B2B2B
