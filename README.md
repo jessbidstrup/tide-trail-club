@@ -1,4 +1,4 @@
-# tide-trail-club
+Live demo link: https://jessbidstrup.github.io/tide-trail-club/
  <h1>Tide & Trail Club - Responsive Design Challenge Project</h1>
     <span class="tag">HTML</span>
     <span class="tag">CSS</span>
