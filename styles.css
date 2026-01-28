@@ -256,66 +256,65 @@ nav{
 
 /* Mobile breakpoints */
 @media (max-width: 600px) {
+    /* Font scaling */
     body {
         font-size: 18px;
     }
-
     h1 {
         font-size: 2.2rem;
     }
-
     h2 {
         font-size: 1.75rem;
     }
-
-    h3 {
-        font-size: 1.4rem;
-    }
-
     p {
         font-size: 1.1rem;
     }
+    /* Button styles */
     .button-primary,
     .button-secondary {
         padding: 18px 24px;
         font-size: 1.1rem;
     }
+    /* Adding padding for sections */
     section {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .about {
+    /* These sections stack on mobile */
+    .about,
+    .where-we-meet {
         flex-direction: column;
     }
+    /* Adjusting card spacing */
     .sunrise,
     .trail,
     .beach,
-    .events{
-        min-width: 80%;
-        margin: 0;
-    }
-    .what-we-do img{
-    width: 100%;
-    border-radius: 15px;
-    }
-    .where-we-meet{
-        flex-direction: column;
-    }
-    .about-content-right,
-    .where-we-meet-right{
-        width: 100%;
-    }
+    .events,
     .inclusive,
     .community,
     .nature,
     .wellbeing,
-    .notrace {
+    .notrace{
+        min-width: 80%;
         margin: 0;
     }
+    /* Image sizing for what we do cards */
+    .what-we-do img{
+    width: 100%;
+    border-radius: 15px;
+    }
+    /* Making these images go edge to edge */
+    .about-content-right,
+    .where-we-meet-right{
+         padding-left: 0;
+         padding-right: 0;
+    }
+    /* Extra spacing for mobile */
     .about-content-left,
     .where-we-meet-left {
         padding: 30px 20px;
     }
+    /* Smaller gaps */
     .what-we-do,
     .values {
         gap: 10px;
@@ -323,6 +322,7 @@ nav{
     .quote{
         margin-top: 10px;
     }
+    /* Gap above the footer */
     .footer{
         margin-top: 20px;
     }
