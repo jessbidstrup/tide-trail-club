@@ -1,0 +1,287 @@
+/* Main */
+html{
+    background-color: #F7F7F4;
+}
+
+/* Font styling */
+.fraunces{
+    font-family: 'Fraunces', serif;
+}
+.source-sans-3{
+    font-family: 'Source Sans 3', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Fraunces', serif;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7FB7A5;
+}
+h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2B2B2B;
+}
+a{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+}
+p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.125rem;
+    color: #2B2B2B;
+}
+/* Nav */
+nav{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #1F3D44;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 0;
+    left: 0;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-ul a{
+    color: white;
+}
+.nav-ul a:hover{
+    color: #E6D8B5;
+}
+
+/* Hero */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    background-image: url("images/hero-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    color: #f7f7f4;
+}
+.hero p{
+    color: #F7F7F4;
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+}
+.hero-content{
+    justify-content: center;
+    text-align: center;
+    max-width: 750px;
+}
+.button-primary{
+    padding: 15px;
+    background-color: #7FB7A5;
+    border-radius: 15px;
+    color: #F7F7F4;
+    text-decoration: none;
+}
+.button-secondary{
+    padding: 15px;
+    background-color: #C96A4A;
+    border-radius: 15px;
+    color: #F7F7F4;
+    text-decoration: none;
+}
+.button-primary:hover{
+    background-color: #C96A4A;
+}
+.button-secondary:hover{
+    background-color: #7FB7A5;
+}
+
+/* About */
+.about{
+    display: flex;
+    background-color: #1F3D44;
+}
+.about-content-left,
+.about-content-right{
+    flex: 1;
+    min-height: 400px;
+}
+.about-content-left{
+    padding: 60px;
+    text-align: left;
+}
+.about-content-left p{
+    color: #F7F7F4;
+}
+.about-content-right{
+    background-image: url("images/beach-walk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* What we do */
+.what-we-do-heading{
+    text-align: center;
+}
+.what-we-do{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sunrise,
+.trail,
+.beach,
+.events{
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    max-width: 150px;
+    background-color: #E6D8B5;
+    min-width: 280px;
+}
+.what-we-do img{
+    max-width: 280px;
+    border-radius: 15px;
+    max-height: 280px;
+}
+
+/* Quote */
+.quote{
+    min-height: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: #C96A4A;
+}
+.quote h3,
+.quote p{
+    color: #F7F7F4;
+}
+
+/* Where we meet */
+.where-we-meet{
+    display: flex;
+    background-color: #1F3D44;
+}
+.where-we-meet-left,
+.where-we-meet-right{
+    flex: 1;
+    min-height: 400px;
+}
+.where-we-meet-left{
+    padding: 60px;
+    text-align: left;
+}
+.where-we-meet-left p{
+    color: #F7F7F4;
+}
+.where-we-meet-left ul li{
+    color: #F7F7F4;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.175rem;
+}
+.where-we-meet-right{
+    background-image: url("images/torquay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Values */
+.values-heading{
+    text-align: center;
+}
+.values{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.inclusive,
+.community,
+.nature,
+.wellbeing,
+.notrace{
+    flex: 1 1 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    max-width: 200px;
+    background-color: #E6D8B5;
+    min-height: 180px;
+}
+.inclusive:hover,
+.community:hover,
+.nature:hover,
+.wellbeing:hover,
+.notrace:hover{
+    background-color: #7FB7A5;
+}
+/* Footer */
+.footer{
+    height: 70px;
+    background-color: #1F3D44;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+.footer p{
+    color: #F7F7F4;
+    padding-left: 10px;
+}
+.footer a:hover{
+    color: #E6D8B5;
+}
+
+/* Mobile breakpoints */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+    .sunrise,
+    .trail,
+    .beach,
+    .events{
+        min-width: 80%;
+    }
+    .what-we-do img{
+    width: 100%;
+    border-radius: 15px;
+    }
+    .where-we-meet{
+        flex-direction: column;
+    }
+    .inclusive,
+    .community,
+    .nature,
+    .wellbeing,
+    .notrace {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* colours
+deep ocean blue: #1F3D44
+seafoam green: #7FB7A5
+warm sand: #E6D8B5
+sunset clay: #C96A4A
+off white: #F7F7F4
+charcoal: #2B2B2B
