@@ -309,6 +309,14 @@ nav{
     .about-content-left,
     .where-we-meet-left {
         padding: 30px 20px;
+    }
+    .inclusive,
+    .community,
+    .nature,
+    .wellbeing,
+    .notrace{
+        margin: 0;
+    }
 }
 
 /* colours
